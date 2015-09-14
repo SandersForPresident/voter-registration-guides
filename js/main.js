@@ -26,7 +26,6 @@ map.init = function () {
     enableZoom: false,
     showTooltip: true,
     onRegionClick: function (element, code, region) {
-      console.log(code, region);
       $stateSelect.val(region);
       map.setButton();
     }
