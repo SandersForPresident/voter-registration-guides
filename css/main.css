@@ -1,0 +1,101 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #222;
+    background-color: #147FD7;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.state-select-container {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    color: #F55B5B;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.state-select-container h2 {
+    display: inline-block;
+    font-size: 16px;
+}
+.state-select-container select {
+    padding: 5px;
+    font-size: 16px;
+}
+.state-select-container a {
+    text-decoration: none;
+    background-color: #A7B6C5;
+    color: #fff;
+    border-radius: 3px;
+    padding: 7px 20px;
+    font-weight: bold;
+    cursor: normal;
+    pointer-events: none;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    transition: 1s all ease;
+}
+.state-select-container a.active {
+    background-color: #EC3E3E;
+    cursor: pointer;
+    pointer-events: inherit;
+}
