@@ -49,7 +49,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font: 16px/26px 'Muli', Helvetica, Helvetica Neue, Arial, sans-serif;
 }
 
 .wrapper {
