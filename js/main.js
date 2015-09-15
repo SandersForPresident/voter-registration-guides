@@ -22,7 +22,7 @@ map.init = function () {
     borderColor: '#147FD7',
     color: '#ffffff',
     hoverColor: '#A7B6C5',
-    selectedColor: '#F55B5B',
+    selectedColor: '#0D63AA',
     enableZoom: false,
     showTooltip: true,
     onRegionClick: function (element, code, region) {
